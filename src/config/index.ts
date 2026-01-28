@@ -4,7 +4,7 @@ const getEnv = (key: string, defaultValue: string): string => {
 };
 
 export const config = {
-  apiBaseUrl: getEnv("NEXT_PUBLIC_API_BASE_URL", "https://mindwhiz-backend.onrender.com"),
+  apiBaseUrl: getEnv("NEXT_PUBLIC_API_BASE_URL", "https://mindwhiz-backend.onrender.com/api"),
 };
 
 export type ClientConfig = typeof config;
